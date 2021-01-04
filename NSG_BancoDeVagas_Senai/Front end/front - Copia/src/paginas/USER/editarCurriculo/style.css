@@ -1,0 +1,266 @@
+.fotoUser
+{
+    position: absolute;
+    margin-left: 5%;
+    width: 12%;
+    margin-top: 3%;
+}
+
+.spaceDesc, .spaceExp, .spaceEsc
+{
+    position: absolute;
+    width: 50%;
+    margin-left: 17%;
+    height: 80px;
+}
+
+.dados{
+    padding: 10px;
+}
+
+
+.titulo1, .titulo2, .titulo3
+{
+    position: absolute;
+    margin-left: 20%;
+}
+
+.titulo1
+{
+    margin-top: 2%;
+}
+
+
+.spaceDesc
+{
+    margin-top: 6%;
+}
+
+.titulo2
+{
+    margin-top: 20%;
+}
+
+.spaceExp
+{
+    margin-top: 24%;
+}
+
+.titulo3
+{
+    margin-top: 25%;
+}
+
+.spaceEsc
+{
+    margin-top: 28%;
+}
+
+
+.textOpCurso
+{
+    position: absolute;
+    margin-top: 5.5%;
+    margin-left: 79%;
+}
+
+.formOpCurso
+{
+    position: absolute;
+    margin-top: 8.5%;
+    margin-left: 76%;
+}
+
+.opCurso2
+{
+    position: absolute;
+    margin-top: -120%;
+    margin-left: 1600%;
+}
+
+.-sim, .-nao
+{
+    position: absolute;
+}
+
+.-sim
+{
+    margin-top: -150%;
+    margin-left: 120%;
+}
+
+.-nao
+{
+    margin-top: -145%;
+    margin-left: 1730%;
+}
+
+.textPalavraChave
+{
+    position: absolute;
+    margin-left: 78.9%;
+    margin-top: 16%;
+}
+
+.textLinguas
+{
+    position: absolute;
+    margin-left: 81%;
+    margin-top: 25%;
+}
+
+.spacePalavraChave
+{
+    position: absolute;
+    height: 90px;
+    margin-top: 18%;
+    margin-left: 75.5%;
+    width: 15%;
+}
+
+.spaceLinguas
+{
+    position: absolute;
+    height: 90px;
+    margin-top: 27%;
+    margin-left: 75.5%;
+    width: 15%;
+}
+
+.telaEditarCurriculo .button
+{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 8%;
+    margin-left: 79%;
+    margin-top: 33%;
+}
+
+
+.Dados{
+    display: flex;
+}
+
+
+@media(max-width: 870px){    
+    .fotoUser
+    {
+        position: absolute;
+        margin-left: 7.5%;
+        width: 12%;
+        margin-top: 3%;
+    }
+
+    .spaceDesc, .spaceExp, .spaceEsc, .formOpCurso, .spacePalavraChave, .spaceLinguas
+    {
+        position: absolute;
+        width: 50%;
+        margin-left: 25%;
+        height: 50px;
+
+    }
+    .titulo1, .titulo2, .titulo3, .textOpCurso, .textPalavraChave, .textLinguas
+    {
+        position: absolute;
+        justify-content: center;
+        margin-left: 30%;
+    }
+    
+    .titulo1
+    {
+        margin-top: 0%;
+    }
+    
+    .spaceDesc
+    {
+        margin-top: 4%;
+    }
+    
+    .titulo2
+    {
+        margin-top: 13%;
+    }
+    
+    .spaceExp
+    {
+        margin-top: 17%;
+    }
+    
+    .titulo3
+    {
+        margin-top: 26%;
+    }
+    
+    .spaceEsc
+    {
+        margin-top: 30%;
+    }
+    
+    .textOpCurso
+    {
+        margin-top: 39%;
+    }
+    
+    .formOpCurso
+    {
+        margin-top: 43%;
+        margin-left: 30%;
+    }
+
+
+    .opCurso2
+    {
+        position: absolute;
+        margin-top: -120%;
+        margin-left: 1600%;
+    }
+    
+    .-sim, .-nao
+    {
+        position: absolute;
+    }
+    
+    .-sim
+    {
+        margin-top: -150%;
+        margin-left: 120%;
+    }
+    
+    .-nao
+    {
+        margin-top: -145%;
+        margin-left: 1730%;
+    }
+    
+    .textPalavraChave
+    {   
+        margin-top: 49%;
+    }
+
+    .spacePalavraChave
+    {
+        margin-top: 53%;    
+    }
+    
+    .textLinguas
+    {
+        margin-top: 62%;
+    }
+    
+    
+    .spaceLinguas
+    {
+        margin-top: 67%;
+    }
+    
+    .telaEditarCurriculo .button
+    {
+        position: absolute;
+        background-color: red;
+        color: white;
+        width: 8%;
+        margin-left: 45%;
+        margin-top: 75%;
+    }
+}

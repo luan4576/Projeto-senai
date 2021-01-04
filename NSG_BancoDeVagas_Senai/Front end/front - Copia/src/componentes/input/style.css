@@ -1,0 +1,21 @@
+input 
+{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 0.7rem;
+    padding: 10px;
+    
+}
+
+label
+{
+    color: white;
+}
+
+@media(max-width: 1500px){
+    input{
+        width: 15rem;
+        height: 2rem;
+    }
+}
+

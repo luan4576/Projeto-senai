@@ -1,0 +1,2 @@
+﻿
+Os controladores estarão a cargo das requisições externas.

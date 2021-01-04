@@ -1,0 +1,132 @@
+.main
+{
+    background-color: #F3F3F3;
+    width: 100%;
+}
+
+.form
+{
+    text-align: center;
+    margin-top: 5%;
+    border: solid 1.5px black;
+    border-radius: 20px;
+    width: 30%;
+    margin-left: 34%;
+    background-color: white;
+    height: 580px;
+}
+
+.textTitulo
+{
+    width: 60%;
+    height: 40px;
+    
+}
+
+.text
+{
+    margin-right: 48%;
+}
+
+.textcpf
+{
+    margin-right: 51%;
+}
+
+.confirm
+{
+    margin-right: 56%;
+}
+
+.textConfirm
+{
+    position: absolute;
+    margin-left: 7.3%;
+    margin-top: 0.3%;
+}
+
+.form .button
+{
+    position: absolute;
+    margin-top: -0.1%;
+    margin-left: -3.6%;
+    width: 7%;
+    color: black;
+    font-size: 120%;
+    background-color: white;
+}
+
+.gambiara
+{
+    color: #F3F3F3;
+}
+
+.back
+{
+    position: absolute;
+    color: white;
+    border: solid white 2px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: -3.8%;
+    margin-left: 88%;
+    width: 7%;
+    height: 50px;
+}
+
+.back li
+{
+    position: absolute;
+    margin-left: 20%;
+    font-size: 30px;
+    margin-top: 4%;
+    list-style: none;
+}
+
+a
+{
+    color: white;
+}
+
+#main-pb-flex-nv1{
+    /* width: inherit !importa  nt; */
+    width: 100% !important;
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+#main-pb-flex-nv1 form{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#main-pb-flex-nv1 h1{
+    margin-bottom: 30px;
+}
+
+#main-pb-flex-nv1 form button{
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    background-color: gray;
+    padding: 10px;
+}
+
+#main-pb-flex-nv1 form button:hover{
+    background-color: red;
+    color: white;
+}

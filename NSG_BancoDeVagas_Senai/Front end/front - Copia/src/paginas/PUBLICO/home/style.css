@@ -1,0 +1,86 @@
+.home{
+    display: flex;   
+}
+
+.spaceSearch{
+    margin: 4%;
+    margin-bottom: 3%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spaceSearch input{
+    width: 50%;
+}
+
+.formSearch{
+    margin-left: 18%;
+}
+
+.images
+{
+    display: block;
+    margin-left: 22%;
+    margin-bottom: 2%
+}
+
+.senai{
+    width: 60%;
+}
+
+#centro-direito-flex-btn{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#centro-direito-flex-btn button{
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+.cadastre-se{
+    width: 50%;
+    margin-top: 5rem;
+    
+}
+
+.btnCadastrar{
+    width: 15rem;
+    height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+
+@media (max-width:1160px){
+
+.formSearch{
+    margin-left: 8%;
+}
+
+.images{
+    margin-left: 12%;
+}
+
+}
+@media (max-width:850px){
+    .home{
+        flex-direction: column;
+    }
+
+    .cadastre-se{
+        margin-left: 5rem;
+    }
+}
+
+@media(max-width: 550px){
+    .senai{
+        width: 300px;
+    }
+}

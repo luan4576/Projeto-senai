@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Banco_De_Vagas_NSG</name>
+    </assembly>
+    <members>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.AdministradorController.EstagiosComPrazos">
+            <summary>
+            A requisição á seguir faz a listagem de todos os estágios com os seus prazos de vencimento (ajustado para 3 meses).
+            </summary>
+            <returns>Retorna uma lista contendo informações de candidato, vaga, prazos e candidatura</returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.AdministradorController.EstagioEmDetalhe(System.Int32)">
+            <summary>
+            A requisição á seguir traz informações sobre um estágio em específico.
+            </summary>
+            <param name="id">Identificador único que trará as informações do estágio</param>
+            <returns>Retorna um objeto com informações de candidato, vaga, prazos e candidatura</returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.AdministradorController.CadastrarAdmin(Banco_De_Vagas_NSG.Configurations.Model.Administrador)">
+            <summary>
+            A requisição á seguir fará o cadastro de um administrador.
+            </summary>
+            <param name="admin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.AdministradorController.ProrrogarEstagio(System.Int32)">
+            <summary>
+            O administrador depois de três meses do prazo, poderá prorrogar por mais três meses ao cadastrar um novo prazo na vaga de estágio
+            </summary>
+            <param name="id">Id da candidatura</param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.BancoDeTalentosController.BuscarTalento(System.String)">
+            <summary>
+            Faz a busca pelos currículos que estão cadastrados no site
+            </summary>
+            <param name="busca"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.BancoDeTalentosController.CurriculoPorId(System.Int32)">
+            <summary>
+            Faz a busca do currículo do candidato
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.CandidatoController.CadastrarCandidato(Banco_De_Vagas_NSG.Solutions.UsuarioCandidato)">
+            <summary>
+            Cadastro de um candidato
+            </summary>
+            <param name="usuarioCandidato"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.CandidatoController.AlterarFoto(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Alteração de foto de perfil do usuário
+            </summary>
+            <param name="arquivo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.CandidatoController.EditarInformacoes(Banco_De_Vagas_NSG.Configurations.Model.UsuarioCandidatoAlteracao)">
+            <summary>
+            Alterar pefil
+            </summary>
+            <param name="perfilEditado"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.CandidatoController.GetMinhasCandidaturas">
+            <summary>
+            Faz a busca de todas as candidaturas que o candidato se aplicou
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.CandidatoController.AtualizarCurriculo(Banco_De_Vagas_NSG.Configurations.Model.CurriculoCandidatoAlteracao)">
+            <summary>
+            Faz a alteração do currículo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.EmpresaController.EscolherCandidato(System.Int32)">
+            <summary>
+            Escolha de um candidato inscrito na vaga
+            </summary>
+            <param name="IdCandidatura"></param>
+            <returns>Retorna uma confirmação de que todo o processo foi bem sucedido, envia um e-mail ao candidato</returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.EmpresaController.CadastroEmpresa(Banco_De_Vagas_NSG.Solutions.UsuarioEmpresa)">
+            <summary>
+            Faz o cadastro da empresa na plataforma
+            </summary>
+            <param name="usuarioEmpresa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.EmpresaController.EditarPerfil(Banco_De_Vagas_NSG.Configurations.Model.UsuarioEmpresaAlteracao)">
+            <summary>
+            Altera as próprias configurações
+            </summary>
+            <param name="id"></param>
+            <param name="usuarioAtualizado"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.EmpresaController.Perfil">
+            <summary>
+            Traz as informações do perfil da empresa
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.EmpresaController.CandidatosVaga(System.Int32)">
+            <summary>
+            Faz a listagem dos candidatos de uma vaga
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.EmpresaController.VagasEmpresa">
+            <summary>
+            Faz a listagem de todas as vagas de uma empresa
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.EmpresaController.DesativarVaga(System.Int32)">
+            <summary>
+            Desativa uma vaga pelo id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.EmpresaController.CadastrarVaga(Banco_De_Vagas_NSG.Configurations.Model.CadastroVaga)">
+            <summary>
+            Faz o cadastro de uma vaga
+            </summary>
+            <param name="cadastro"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.LoginController.Post(Banco_De_Vagas_NSG.Configurations.LoginViewModel)">
+            <summary>
+            Faz a autenticação do usuário no sistema
+            </summary>
+            <param name="login">Objeto que conterá E-Mail e Senha para a validação e autenticação no sistema</param>
+            <returns>Retorna um token de acesso</returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.VagaController.Get">
+            <summary>
+            Faz a listagem de todas as vagas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Banco_De_Vagas_NSG.Controllers.VagaController.BuscarVaga(System.String)">
+            <summary>
+            Faz a busca de vagas pelo título
+            </summary>
+            <param name="titulo"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,117 @@
+.main
+{
+    background-color: #d8d5d5;
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+.inputBgG{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #707070;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    width: 25rem ;
+    height: 40rem;
+    border-radius: 0.7rem;
+}
+
+.label{
+    color: black;
+}
+
+.input2{
+    width: 15rem;
+    height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    margin-bottom: 4rem;
+    margin-top: -2rem;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+}
+
+.botao .button{
+    margin-top: 5rem;
+    width: 3rem;
+    height: 1.5rem;
+
+}
+    .background{
+        display: flex;
+        justify-content: center;
+        background-color: #f0f0f0;
+        width: 100%;
+    }
+    
+    .inputBg{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: #707070;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background-color: white;
+        width: 25rem ;
+        height: 30rem;
+        border-radius: 0.7rem;
+    }
+    
+    .label{
+        color: black;
+    }
+    
+    .input2{
+        width: 15rem;
+        height: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .campo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .titulo{
+        margin-bottom: 4rem;
+        margin-top: -2rem;
+    }
+    
+    .botao{
+        display: flex;
+        justify-content: center;
+        width: 15rem;
+    }
+    
+    .botao .button{
+        margin-top: 5rem;
+        width: 5rem;
+        height: 1.5rem;
+    }
+
+
+    section.foooter{
+        position: relative;
+    }

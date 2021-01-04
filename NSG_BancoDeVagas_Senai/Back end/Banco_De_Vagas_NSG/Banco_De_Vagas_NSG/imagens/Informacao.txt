@@ -1,0 +1,3 @@
+﻿- Arquivos no formato de imagem
+- Imagens de Candidato e logo de empresa
+- Nomemclaturas única para cada imagem 

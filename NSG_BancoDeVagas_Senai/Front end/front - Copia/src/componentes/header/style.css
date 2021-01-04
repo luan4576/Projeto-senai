@@ -1,0 +1,75 @@
+.header
+{
+    background-color: #ED1F24;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+
+.logoSenai{
+    width: 125px;
+    margin-left: 2rem;
+}
+
+#botoesheader{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botoesheader button{
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ajuste de cabeçalho  */
+
+
+
+
+#botoesheader ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    border-style: none;
+}
+
+#botoesheader ul li {
+    position: relative;
+}
+
+#botoesheader li ul{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    display: none;
+}
+
+#botoesheader ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#botoesheader li:hover ul{ 
+    display: inline-block;    
+}

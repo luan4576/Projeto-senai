@@ -1,0 +1,97 @@
+.textMyVagas
+{
+    text-align: center;
+    margin-top: 3.5%;
+}
+
+.textDataVaga
+{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 4%;
+    font-size: 120%;
+}
+
+.myVaga
+{
+    position: absolute;
+    margin-top: 5.7%;
+    margin-left: 20%;
+    border-radius: 20px;
+    height: 80px;
+    width: 50%;
+    background-color: #4A4A4A;
+}
+
+.infoMinhaVaga
+{
+    position: absolute;
+    font-size: 120%;
+    margin-top: 6.2%;
+    margin-left: 21%;
+    color: white;
+}
+
+.infoMinhaVaga2
+{
+    position: absolute;
+    font-size: 120%;
+    margin-top: 8%;
+    margin-left: 21%;
+    color: white;
+}
+
+.infoMinhaVaga3
+{
+    position: absolute;
+    font-size: 120%;
+    margin-top: 6.2%;
+    margin-left: 61%;
+    color: white;
+}
+
+.infoMinhaVaga4
+{
+    position: absolute;
+    font-size: 120%;
+    margin-top: 8%;
+    margin-left: 61%;
+    color: white;
+}
+
+
+#corpo-nv2-direito-conteudo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    width: 500px;
+    height:90px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#corpo-nv2-direito-conteudo:hover{
+    background-color: darkgray;
+}
+
+#corpo-nv2-direito-conteudo p{
+    margin-left: 8px;
+}
+
+#corpo-nv2-direito-conteudo-info, #corpo-nv2-direito-conteudo-titulo{
+    width: 50%;
+    height: 100%;
+}
+
+#corpo-nv2-direito-conteudo-titulo p{
+    width: 90%;
+    height: 70%;
+    white-space: pre-wrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}

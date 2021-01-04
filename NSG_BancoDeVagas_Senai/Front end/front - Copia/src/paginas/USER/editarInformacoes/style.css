@@ -1,0 +1,132 @@
+.telaEditarInfo
+{
+    background-color: #F3F3F3;
+    height: 1200px;
+}
+
+.formEditarInformacoes
+{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    height: 20rem;
+    border-radius: 20px;
+}
+
+.textNomeCompleto
+{
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.spaceNomeCompleto
+{
+    position: absolute;
+    height: 30px;
+    width: 15%;
+    margin-left: 21%;
+    margin-top: -1.3%;
+}
+
+.textDataNascimento
+{
+    padding-left: 10%;
+}
+
+.spaceDataNascimento
+{
+    position: absolute;
+    height: 30px;
+    width: 15%;
+    margin-left: 21%;
+    margin-top: -1.3%;
+}
+
+.textCPF
+{
+    padding-left: 10%;
+}
+
+.spaceCPF
+{
+    position: absolute;
+    height: 30px;
+    width: 15%;
+    margin-left: 21%;
+    margin-top: -1.3%;
+}
+
+.formEditarInformacoes .button
+{
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 15%;
+    margin-left: 41%;
+    margin-top: 7%;
+}
+
+.formEditarImg
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.formEditarImg .textAlterarImg
+{
+    text-align: center;
+}
+
+.textAlterarImg
+{
+    padding-top: 5%;
+}
+
+.spaceEditarImg
+{
+    margin-left: 37%;
+    margin-top: 7%;
+}
+
+.formEditarImg .button
+{
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 15%;
+    margin-left: 41%;
+    margin-top: 7%;
+}
+
+
+@media(max-width: 1370px){
+    .formEditarInformacoes .principal{
+        margin-top: 1rem;
+        margin-left: -7rem;
+    }
+
+    .formEditarInformacoes{
+        height: 22rem;
+    }
+
+    .textNomeCompleto{
+        margin-left: 7.5rem;
+    }
+
+    .textDataNascimento{
+        margin-left: 6.4rem;
+    }
+
+    .textCPF{
+        margin-left: 11.5rem;
+    }
+}

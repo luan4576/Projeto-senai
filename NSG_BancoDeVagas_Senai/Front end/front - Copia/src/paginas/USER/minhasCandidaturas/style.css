@@ -1,0 +1,48 @@
+.telaMinhasCandidaturas{
+    height: 43rem;
+}
+
+.formVaga{
+    width:25rem;
+    height: 5rem;
+    margin: 2rem;
+}
+
+.corpo-nv1-exclusivo{
+    height:"100%"; 
+    width:"100%";
+    display:"flex";
+    justify-Content:"center"; 
+    flex-direction:"column"; 
+    align-items:"center";
+    margin-bottom: 500px;
+}
+
+
+
+.coluna-candidatura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-vaga{
+    margin-top: 0.93rem;
+    margin-bottom: 0.93rem;
+    border-radius: 2.5rem;
+    width: 31.25rem;
+    height:5.7rem;
+    background-color: white;
+    padding: 0.93rem;
+    display: flex;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+@media(max-width: 510px){
+    .conteudo-vaga{
+        width: 20rem;
+    }
+}

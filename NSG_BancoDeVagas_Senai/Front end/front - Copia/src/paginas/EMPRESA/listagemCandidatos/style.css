@@ -1,0 +1,80 @@
+.telaListagemCandidatos
+{
+    background-color: #F3F3F3;
+    height: 900px;
+}
+
+.informacoesVaga
+{
+    border: solid 2px grey;
+    background-color: white;
+    width: 55%;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.infor
+{
+    padding: 1%;
+}
+
+.vagaTipo
+{
+    margin-top: 0.5%;
+}
+
+.divulg
+{
+    margin-top: 0.5%;
+}
+
+.loc
+{
+    margin-top: 0.5%;
+}
+
+.moreInfo
+{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -5%;
+}
+
+.informacoesVaga{
+    width: 90% !important;
+    height: 20% !important;
+}
+
+
+.tabelaListagem
+{
+    border: solid 2px white;
+    border-radius: 15px;
+    background-color: white;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+}
+
+.titleTable, .titleTable2
+{
+    font-size: 170%;
+}
+
+.titleTable
+{
+    width: 60%;
+}
+
+.nomeCandidato, .especialidadeCandidato
+{
+    font-size: 130%;
+    padding-top: 3%;
+}
+
+tr, td{
+    padding: 20px;
+}

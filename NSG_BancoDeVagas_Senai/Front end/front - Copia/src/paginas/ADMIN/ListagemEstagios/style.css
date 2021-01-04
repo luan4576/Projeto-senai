@@ -1,0 +1,71 @@
+.telaListagemEstagios
+{
+    background-color: #F3F3F3;
+    height: 900px;
+}
+
+.informacoesEstagios
+{
+    border: solid 2px grey;
+    background-color: gray;
+    width: 70%;
+    height: 14%;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 15%;
+    padding: 10px;
+
+}
+
+.infor
+{
+    padding: 10px;
+    height: 100px;
+}
+
+.prazo  
+{
+    color: white;
+    margin-top: 0.5%;
+}
+
+.divulg
+{
+    margin-top: 0.5%;
+}
+
+.loc
+{
+    margin-top: 0.5%;
+}
+
+.moreInfo
+{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -5%;
+    color: white;
+}
+
+.desc
+{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -5%;
+    color: white;
+}
+
+.informacoesEstagios .button
+{
+    position: absolute;
+    margin-left: 50%;
+    width: 10%;
+    background-color: red;
+    height: 40px;
+    color: white;
+    font-size: 100%;
+    margin-top: -2%;
+}
+
+
+

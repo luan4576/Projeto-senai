@@ -1,0 +1,80 @@
+#pesquisa-nv1{
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    min-width: 400px;
+}
+
+#pesquisa-nv2{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+#pesquisa-nv2 input{
+    margin-top: 10px;
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 9px;
+    border: solid 1px black;
+}
+
+#conteudo-nv1{
+    width: 100%;
+    height: 100%;
+    min-width: 400px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#conteudo-nv2{
+    width: 200px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    margin: 30px;
+    border: 1px black solid;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#conteudo-nv2 img{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+#conteudo-nv2 p:nth-child(3){
+    margin-top: 14px;
+    width: 90%;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#conteudo-nv2 p:nth-child(2){
+    font-weight: 800;
+}
+
+#conteudo-nv2 p{
+    margin-top: 3px;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#conteudo-nv2:hover{
+    background-color:gray;
+    color: white;
+}

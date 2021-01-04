@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+#corpo-nv1{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    display: flex;
+}
+#corpo-nv2-esquerdo, #corpo-nv2-direito{
+    width: 50%;
+}
+
+#corpo-nv2-esquerdo{
+    margin-top: 40px;
+    height: 400px;
+    background-color: white;
+}
+
+#corpo-nv3-esquerdo-info{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#corpo-nv3-esquerdo-info input{
+    margin-top: 10px;
+    height: 40px;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    border: solid 1px black;
+}
+
+#corpo-nv3-esquerdo-info-inferior{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    margin-left: 60px;
+}
+
+#corpo-nv3-esquerdo-info-inferior button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+#corpo-nv3-esquerdo-info-inferior h4{
+    margin-bottom: 10px;
+}
+
+#corpo-nv3-esquerdo-info-inferior input{
+    width: 20px;
+    height: 20px;
+}
+
+.corpo-nv4-esquerdo-info-inferior-mini{
+    width: 100%;
+    height: 40px;
+    display: flex;  
+    align-items: center;
+}
+
+.corpo-nv4-esquerdo-info-inferior-mini p{
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+#corpo-nv2-direito{
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+#corpo-nv2-direito-conteudo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 40px;
+    width: 500px;
+    height:90px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#corpo-nv2-direito-conteudo:hover{
+    background-color: darkgray;
+}
+
+#corpo-nv2-direito-conteudo p{
+    margin-left: 8px;
+}
+
+#corpo-nv2-direito-conteudo-info, #corpo-nv2-direito-conteudo-titulo{
+    width: 50%;
+    height: 100%;
+}
+
+#corpo-nv2-direito-conteudo-titulo p{
+    width: 90%;
+    height: 70%;
+    white-space: pre-wrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}

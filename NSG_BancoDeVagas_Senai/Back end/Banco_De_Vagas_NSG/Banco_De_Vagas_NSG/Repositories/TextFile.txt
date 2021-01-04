@@ -1,0 +1,2 @@
+﻿
+A pasta repositório organizará as regras de negócio da solução

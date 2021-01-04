@@ -1,0 +1,38 @@
+.infoBasica{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.userIcon{
+    width: 25%;
+}
+
+.perfil{
+    margin-top: 4rem;
+    width: 40%;
+    margin-left: 1rem;
+}
+
+.infoCurso{
+    margin-left: 3rem;
+}
+
+.curriculo{
+    width: 55%;
+    height: 35rem;
+    border-style: solid;
+    margin-top: 12rem;
+    margin-left: 40%;
+    margin-top: -27rem;
+    border-radius: 0.9rem;
+    border-color: grey;
+}
+
+@media(min-width: 870px){    
+    .curriculo{
+        height: 22rem !important;
+        margin-bottom: 200px;
+    }
+
+}

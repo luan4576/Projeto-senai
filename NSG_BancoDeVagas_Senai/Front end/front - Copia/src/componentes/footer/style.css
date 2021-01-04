@@ -1,0 +1,21 @@
+.foooter
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+hr
+{
+    color: white;
+    width: 50px;
+    transform: rotate(90deg);
+    margin-top: 4%;
+}

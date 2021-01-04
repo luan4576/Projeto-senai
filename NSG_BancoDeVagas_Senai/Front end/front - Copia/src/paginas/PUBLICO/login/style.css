@@ -1,0 +1,147 @@
+.telaLogin
+{
+    background-image: url("../../../assets/img/recepcao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40em;
+    opacity: 0.7;
+}
+
+.greyBg{
+    display: flex;
+    align-items: center;
+    background-color: rgb(70, 67, 67, 0.5);
+    height: 100%;
+    opacity: 1;
+}
+
+.textEmail
+{
+    color: white;
+}
+
+.email
+{
+    border: none; 
+    margin-bottom: 2rem;
+}
+
+.textSenha
+{
+    color: white;   
+}
+
+.senha
+{
+    border: none;  
+    margin-bottom: 2rem;
+}
+
+.entrar
+{
+    background-color: red;
+    color: white;
+    margin-left: 30%;
+}
+
+.input .button
+{
+    background-color: red;
+    margin-left: 8rem;
+    width: 7rem;
+    color: white;
+    font-size: 120%;
+    padding-bottom: 2rem;
+}
+
+.divisor
+{
+    margin-left: 12rem;
+    transform: rotate(90deg);
+    color: white;
+    width: 18rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.pr{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.txtVermelho{
+    color: red;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.logoBanco{
+    width: 300px;
+}
+
+@media(max-width: 550px){
+    .divisor{
+        display: none;
+    }
+
+    .greyBg{
+        justify-content: center;
+    }
+
+    .input{
+        margin-left: 0;
+    }
+
+    .input .button{
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width:800px){
+    .greyBg{
+        height: 43rem;
+    }
+
+    .telaLogin{
+        height: 43rem;
+    }
+}
+
+@media(max-width:900px){
+    .greyBg{
+        flex-direction: column;
+    }
+
+    .divisor{
+        display: none;
+    }
+
+    .input{
+        margin-left: 0rem;
+        margin-top: 7rem;
+    }
+
+    .logoBanco{
+        margin-top: 5rem;
+    }
+
+    
+}
+
+
+
+
+
+   

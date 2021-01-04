@@ -1,0 +1,50 @@
+.teste
+{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 18%;
+}
+
+.spaceSearch
+{
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 11.6%;
+    display: inline;
+}
+
+.images img
+{
+    display: block;
+    margin-left: 7.5%;
+    width: 75%;
+}
+
+.images
+{
+    position: absolute;
+    margin-bottom: 6%;
+    margin-top: 10%;
+    margin-left: 9%;
+}
+
+.emp
+{
+    margin-top: 2%;
+}
+
+.botoes
+{
+    position: absolute;
+    margin-left: 55%;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.botoes .button
+{
+    height: 80px;
+    background-color: red;
+    color: white;
+    font-size: 120%;
+}

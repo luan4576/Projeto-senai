@@ -1,0 +1,10 @@
+.bg{
+    display: flex;
+    width: 70rem;
+    height: 10rem;
+    border-radius: 1rem;
+    background-color: #707070;
+    opacity: 75%;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

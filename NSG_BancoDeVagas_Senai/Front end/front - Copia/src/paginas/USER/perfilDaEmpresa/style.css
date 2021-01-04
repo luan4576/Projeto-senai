@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.empresa{
+    display: flex;
+    justify-content: center;
+    width: 25rem;
+    height: 25rem;
+    border-style: solid;
+    border-color: #0F99BF;
+    border-radius: 0.7rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.infoEmpresa{
+    margin-left: 35rem;
+    margin-top: -20rem;
+    margin-bottom: 10.5rem;
+}
+
+.infoEmpresa .bg{
+    width: 30rem;
+    height: 7rem;
+}
+
+.resumoEmpresa{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    background-color: #0F99BF;
+    border-radius: 0.7rem;
+    width: 30rem;
+    margin-bottom: 5rem;
+    height: 8rem;
+    padding-left: 2rem;
+}
+
+.titleRes{
+    margin-bottom: 1rem;
+}
+
+.iconEmpresa{
+    width: 15rem;
+    margin-bottom: 2rem;
+}    
+
+.vagasAbertas :first-child{
+    margin-bottom: 1rem;
+}
+
+@media(max-width:950px){
+    .infoEmpresa{
+        margin-top: 5rem;
+        margin-left: 3rem;
+    }
+
+    .content-empresa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resumoEmpresa{
+        width: 30rem;
+    }
+
+    .vagasAbertas .bg{
+        width: 30rem;
+    }
+}
+
+@media(max-width:530px){
+    .resumoEmpresa{
+        width: 20rem;
+    }
+
+    .vagasAbertas .bg{
+        width: 20rem;
+    }
+    
+}

@@ -1,0 +1,111 @@
+.main1{
+    width: 100%;
+    height: 32rem;
+}
+
+.icon{
+    width: 55%;
+}
+
+.iconG{
+    width: 50%;
+}
+
+.botoes1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50rem;
+    margin-top: -32rem; 
+}
+
+.fileira{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+}
+
+.infoUsuario{
+    display: flex;   
+    margin-top: 5rem;
+}
+
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Segoe UI';
+    
+    
+}
+
+.resumo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 8rem;
+    font-family: 'Segoe UI';
+}
+
+.iconGg{
+    width:150px;
+}
+
+.usuario{
+    margin-left: 5rem;
+    width: 20rem;
+    margin-top: 8rem;
+}
+
+
+.botoes1 .button{
+    height: 2.5rem;
+    background-color: #FFF;
+    color: #707070;
+    width: 10rem;
+    border-color: #707070;
+    border-radius: 0.9rem;
+}
+
+.img{
+   width: 10rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.opcoess{
+    margin-right: 15rem;
+}
+
+@media(max-width: 1400px){
+    .botoes1{
+        margin-left: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .main1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fileira{
+        margin-top: 2rem;
+    }
+
+    .usuario{
+        margin-top: 7rem;
+    }
+}
+
+@media(max-width: 640px){
+    .opcoess{
+        margin-right: 3rem;
+    }
+}
+
+
+
